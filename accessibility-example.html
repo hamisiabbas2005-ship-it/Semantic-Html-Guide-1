@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Example - Simple HTML</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+    <a href="#main-content">Skip to main content</a>
+
+    <header>
+        <h1>Accessibility in HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#what">What is Accessibility?</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#tips">Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="what">
+            <h2>What is Web Accessibility?</h2>
+            <p>Web accessibility means making websites that everyone can use, including people with disabilities.</p>
+        </section>
+
+        <section id="examples">
+            <h2>Simple Accessibility Examples</h2>
+            
+            <article>
+                <h3>1. Good Headings</h3>
+                <p>Use headings in order: h1, then h2, then h3.</p>
+                <pre>
+&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;h2&gt;Section Title&lt;/h2&gt;
+&lt;h3&gt;Subsection Title&lt;/h3&gt;
+                </pre>
+            </article>
+
+            <article>
+                <h3>2. Alt Text for Images</h3>
+                <p>Always describe your images for people who can't see them.</p>
+                <pre>
+&lt;img src="dog.jpg" alt="A happy golden retriever playing in the park"&gt;
+                </pre>
+            </article>
+
+            <article>
+                <h3>3. Good Links</h3>
+                <p>Make link text clear and descriptive.</p>
+                <pre>
+❌ Bad: &lt;a href="#"&gt;Click here&lt;/a&gt;
+✅ Good: &lt;a href="#"&gt;Download the HTML guide&lt;/a&gt;
+                </pre>
+            </article>
+
+            <article>
+                <h3>4. Form Labels</h3>
+                <p>Always label your form inputs.</p>
+                <pre>
+&lt;label for="name"&gt;Your Name:&lt;/label&gt;
+&lt;input type="text" id="name" name="name"&gt;
+                </pre>
+            </article>
+        </section>
+
+        <section id="tips">
+            <h2>Easy Accessibility Tips</h2>
+            <ul>
+                <li>Use proper HTML tags (header, main, footer)</li>
+                <li>Write good alt text for images</li>
+                <li>Make sure your website works with just a keyboard</li>
+                <li>Use good color contrast</li>
+                <li>Keep your content simple and clear</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Try It Yourself</h2>
+            <p>Here's a simple contact form with good accessibility:</p>
+            
+            <form>
+                <div>
+                    <label for="user-name">Name:</label>
+                    <input type="text" id="user-name" name="user-name" required>
+                </div>
+                
+                <div>
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" name="user-email" required>
+                </div>
+                
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Accessibility Guide</p>
+        <p><a href="semantic-demo.html">Back to Main Demo</a></p>
+    </footer>
+</body>
+  </html>
