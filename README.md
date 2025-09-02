@@ -18,7 +18,9 @@
 This repository supports the blog post: **"Mastering Semantic HTML: A Technical Guide to SEO and Accessibility Excellence"**
 
 Read the full article:
-[https://dev.to/cmutuadev/mastering-sematic-html-a-technical-to-seo-and-accessibility-excellence-4n98]
+[https://dev.to/hamisi/mastering-sematic-html-a-technical-to-seo-and-accessibility-excellenceintroduction-2hac]
+
+
 
 ## 🛠 Examples Included
 
